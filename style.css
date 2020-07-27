@@ -81,7 +81,7 @@
 .leftli {
   color: #B9C0BA;
   background-color: #23231A;
-  line-height: 20px;
+  line-height: 22px;
   text-align: left;
 
   border-radius: 20px;
@@ -162,11 +162,13 @@ main {
 }
 
 main article h3 {
+  color: #23231A;
   text-align: center;
   /* Centers the article header text. */
 }
 
 main article h4 {
+  color: #23231A;
   text-align: center;
   /* Centers the article sub-header text. */
 }
