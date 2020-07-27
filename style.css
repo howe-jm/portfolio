@@ -47,11 +47,6 @@
   width: 20%;
 }
 
-.emailformatting {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-bottom: 25px;
-}
-
 .social {
   background-color: #fff;
   border: 3px solid #23231A;
@@ -66,8 +61,8 @@
 }
 
 .list {
+  /* Style for the list container, to which lists can be added as articles. */
   list-style-position: inside;
-
   width: 90%;
   height: max-content;
   margin: auto;
@@ -77,6 +72,7 @@
 }
 
 .leftli {
+  /* Style for the left list. */
   color: #B9C0BA;
   background-color: #23231A;
   border-radius: 20px;
@@ -93,6 +89,7 @@
 }
 
 .rightli {
+  /* Style for the right list. */
   color: #B9C0BA;
   background-color: #23231A;
   border-radius: 20px;
@@ -107,13 +104,13 @@
 }
 
 body {
+  /* Sets the background image on the body of the page, for simplicity. */
   background: url("images/mountain-road.jpg");  
   background-size: cover;
-;
-  /*Sets the background image, behind the other elments of the page.*/
 }
 
 header {
+  /* Style for the header. */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
 
@@ -127,16 +124,20 @@ header {
   }
 
 header h1 {
+  /* Style for the header h1 (title) text. */
   font-size: 52px;
   letter-spacing: 6px;
 }
 
 header h2 {
+  /* Style for the header h2 (sub-title) text. */
   margin-top: -5px;
 }
 
 main {
+/* General style for the main container for the webpage. */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #23231A;
 
   background-color: antiquewhite;
   width: 800px;
@@ -147,16 +148,8 @@ main {
   margin-bottom: -4px;
 }
 
-main h3 {
-    color: #23231A;
-}
-
-main h4 {
-  color: #23231A;
-  padding-bottom: 0px;
-}
-
 main article {
+  /* Style for the articles (the bulk of the text) featured in the main container. */
   color: #7E4E60;
   margin: 15%;
   margin-top: 0px;
@@ -166,6 +159,7 @@ main article {
 }
 
 footer {
+  /* Style for the footers. */
   color: #B287A3;
   text-align: center;
   background-color: #23231A;
@@ -178,10 +172,12 @@ footer {
 }
 
 a:link, a:visited, a:hover, a:active {
+  /* Link pseudo-classes. I want them to look the same all the time. */
   color: #B9C0BA;
 }
 
 hr {
+  /* Styling for the horizontal rules. */
   border: 6px solid #23231A;
   border-radius: 3px;
 }
