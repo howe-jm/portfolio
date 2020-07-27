@@ -81,7 +81,7 @@
 .leftli {
   color: #B9C0BA;
   background-color: #23231A;
-  line-height: 22px;
+  line-height: 23px;
   text-align: left;
 
   border-radius: 20px;
@@ -113,6 +113,13 @@
   float: left;
   /* Style for the right list. */
 }
+
+/*
+ul li:first-of-type, ol li:first-of-type {
+  list-style: none;
+  margin-left: -1px;
+}
+*/
 
 body {
   background: url("images/mountain-road.jpg");  
@@ -174,8 +181,12 @@ main article h4 {
 }
 
 main article h5 {
+  text-align: left;
   font-size: 16px;
   text-decoration: underline;
+
+  margin-left: 35px;
+  margin-bottom: -5px;
   /* Styles the main article h5 (used to title the lists) text. */
 }
 
