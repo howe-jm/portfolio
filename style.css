@@ -71,7 +71,7 @@
 
   padding: 10px;
   margin: auto;
-  margin-bottom: 16.5%;
+  margin-bottom: 25%;
   margin-top: 1%;
   /* Style for the list container, to which lists can be added as articles. 
   This may be outside of the scope of the module, but I wanted to learn to
@@ -81,16 +81,17 @@
 .leftli {
   color: #B9C0BA;
   background-color: #23231A;
-  line-height: 24px;
+  line-height: 20px;
   text-align: left;
 
   border-radius: 20px;
-  height: 150px;
+  height: 190px;
   width: 250px;
 
   margin: auto;
   margin-left: 16.33%;
   margin-right: -17px;
+  padding-top: 1px;
   
   float: left;
   /* Style for the left list. */
@@ -102,9 +103,10 @@
   text-align: left;
 
   border-radius: 20px;
-  height: 150px;
+  height: 190px;
   width: 250px;
 
+  padding-right: 15px;
   margin: auto;
   margin-left: -17px;
   
@@ -157,6 +159,22 @@ main {
   margin: auto;
   margin-bottom: -15px;
   /* General style for the main container for the webpage. */
+}
+
+main article h3 {
+  text-align: center;
+  /* Centers the article header text. */
+}
+
+main article h4 {
+  text-align: center;
+  /* Centers the article sub-header text. */
+}
+
+main article h5 {
+  font-size: 16px;
+  text-decoration: underline;
+  /* Styles the main article h5 (used to title the lists) text. */
 }
 
 main article {
