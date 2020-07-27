@@ -152,9 +152,10 @@ main {
 
   height: auto;
   width: 800px;
+
+  padding: 0;
   margin: auto;
   margin-bottom: -15px;
-  padding: 0;
   /* General style for the main container for the webpage. */
 }
 
@@ -162,10 +163,10 @@ main article {
   color: #7E4E60;
   text-align: left;
 
+  padding-top: 0px;
   margin: 15%;
   margin-top: 0px;
   margin-bottom: 3%;
-  padding-top: 0px;
   /* Style for the articles (the bulk of the text) featured in the main container. */
 }
 
@@ -177,8 +178,9 @@ footer {
   border-radius: 5px;
   height: max-content;
   width: 800px;
+
+  padding: 12px;
   margin: auto;
-  padding: 0;
   /* Style for the footers. */
 }
 
