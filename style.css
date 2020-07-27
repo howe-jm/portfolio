@@ -12,38 +12,38 @@
   margin-bottom: -6px;
 }
 
-.drop {
-  margin-bottom: -10px;
-}
-
 .rounded {
   border-radius: 40px;
-  /*Add rounded corners to an element.*/
+  /* Class to add rounded corners to an element.*/
 }
 
 .linkedin {
   border-radius: 50%;
   width: 25%;
-  /*To specifically shape the LI profile thumbnail.*/
+  /* To specifically shape the LI profile thumbnail.*/
 }
 
 .lilogo{
   width: 60%;
   padding-left: 15px;
   padding-bottom: 16px;
-  /*To specifically reduce the size and padding on the LI logo*/
+  /* Class to specifically reduce the size and padding on the LI logo */
 }
 
 .ghlogo {
   width: 50%;
-
+  /* Class to specifically reduce the size of the GH logo. */
 }
 
 .ghmark {
   width: 20%;
+  /* Class to specifically reduce the size of the GH mark. */
 }
 
 .emlogo {
+  /* Class to specificially reduce the size of the email logo.
+  Note that I would probably just reduce the size of the images
+  exterenally in a practical setting. */
   width: 20%;
 }
 
@@ -61,7 +61,6 @@
 }
 
 .list {
-  /* Style for the list container, to which lists can be added as articles. */
   list-style-position: inside;
   width: 90%;
   height: max-content;
@@ -69,10 +68,10 @@
   margin-bottom: 21%;
   margin-top: 1%;
   padding: 10px;
+  /* Style for the list container, to which lists can be added as articles. */
 }
 
 .leftli {
-  /* Style for the left list. */
   color: #B9C0BA;
   background-color: #23231A;
   border-radius: 20px;
@@ -86,10 +85,10 @@
   float: left;
   text-align: left;
   line-height: 22px;
+  /* Style for the left list. */
 }
 
 .rightli {
-  /* Style for the right list. */
   color: #B9C0BA;
   background-color: #23231A;
   border-radius: 20px;
@@ -101,16 +100,16 @@
   float: left;
   
   text-align: left;
+  /* Style for the right list. */
 }
 
 body {
-  /* Sets the background image on the body of the page, for simplicity. */
   background: url("images/mountain-road.jpg");  
   background-size: cover;
+  /* Sets the background image on the body of the page, for simplicity. */
 }
 
 header {
-  /* Style for the header. */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
 
@@ -121,21 +120,21 @@ header {
   height: max-content;
   margin: auto;
   margin-bottom: -5px;
+  /* Style for the header. */
   }
 
 header h1 {
-  /* Style for the header h1 (title) text. */
   font-size: 52px;
   letter-spacing: 6px;
+  /* Style for the header h1 (title) text. */
 }
 
 header h2 {
-  /* Style for the header h2 (sub-title) text. */
   margin-top: -5px;
+  /* Style for the header h2 (sub-title) text. */
 }
 
 main {
-/* General style for the main container for the webpage. */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #23231A;
 
@@ -146,20 +145,20 @@ main {
   padding: 0;
   margin: auto;
   margin-bottom: -4px;
+  /* General style for the main container for the webpage. */
 }
 
 main article {
-  /* Style for the articles (the bulk of the text) featured in the main container. */
   color: #7E4E60;
   margin: 15%;
   margin-top: 0px;
   margin-bottom: 3%;
   padding-top: 0px;
   text-align: left;
+  /* Style for the articles (the bulk of the text) featured in the main container. */
 }
 
 footer {
-  /* Style for the footers. */
   color: #B287A3;
   text-align: center;
   background-color: #23231A;
@@ -168,16 +167,16 @@ footer {
   padding: 0;
   width: 800px;
   border-radius: 5px;
-
+  /* Style for the footers. */
 }
 
 a:link, a:visited, a:hover, a:active {
-  /* Link pseudo-classes. I want them to look the same all the time. */
   color: #B9C0BA;
+  /* Link pseudo-classes. I want them to look the same all the time. */
 }
 
 hr {
-  /* Styling for the horizontal rules. */
   border: 6px solid #23231A;
   border-radius: 3px;
+  /* Styling for the horizontal rules. */
 }
