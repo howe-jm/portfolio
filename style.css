@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  /*Set default box-sizing.*/
+}
+
+.addmargin {
+  margin-top: 30px;
+  /*To give a little more cushion above certain elements.*/
+}
+
+.lesslower {
+  margin-bottom: -6px;
+}
+
+.drop {
+  margin-bottom: -10px;
+}
+
+.rounded {
+  border-radius: 40px;
+  /*Add rounded corners to an element.*/
+}
+
+.linkedin {
+  border-radius: 50%;
+  width: 25%;
+  /*To specifically shape the LI profile thumbnail.*/
+}
+
+.lilogo{
+  width: 60%;
+  padding-left: 15px;
+  padding-bottom: 16px;
+  /*To specifically reduce the size and padding on the LI logo*/
+}
+
+.ghlogo {
+  width: 50%;
+
+}
+
+.ghmark {
+  width: 20%;
+}
+
+.emlogo {
+  width: 20%;
+}
+
+.emailformatting {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 25px;
+}
+
+.social {
+  background-color: #fff;
+  border: 3px solid #23231A;
+
+  width: 300px;
+  height: min-content;
+  border-radius: 12px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2px;
+/* A class to keep social media/contact links contained and organized.*/
+}
+
+.list {
+  list-style-position: inside;
+
+  width: 90%;
+  height: max-content;
+  margin: auto;
+  margin-bottom: 21%;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+.leftli {
+  color: #B9C0BA;
+  background-color: #23231A;
+  border-radius: 20px;
+
+  margin: auto;
+  margin-left: 16.8%;
+  margin-right: -17px;
+  height: 180px;
+  width: 250px;
+ 
+  float: left;
+  text-align: left;
+  line-height: 22px;
+}
+
+.rightli {
+  color: #B9C0BA;
+  background-color: #23231A;
+  border-radius: 20px;
+
+  margin: auto;
+  margin-left: -17px;
+  height: 180px;
+  width: 250px;
+  float: left;
+  
+  text-align: left;
+}
+
+body {
+  background: url("images/mountain-road.jpg");  
+  background-size: cover;
+;
+  /*Sets the background image, behind the other elments of the page.*/
+}
+
+header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+
+  border-radius: 5px;
+  color: #DBD3AD;
+  background-color: #23231A;
+  width: 800px;
+  height: max-content;
+  margin: auto;
+  margin-bottom: -5px;
+  }
+
+header h1 {
+  font-size: 52px;
+  letter-spacing: 6px;
+}
+
+header h2 {
+  margin-top: -5px;
+}
+
+main {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  background-color: antiquewhite;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+  margin-bottom: -4px;
+}
+
+main h3 {
+    color: #23231A;
+}
+
+main h4 {
+  color: #23231A;
+  padding-bottom: 0px;
+}
+
+main article {
+  color: #7E4E60;
+  margin: 15%;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  padding-top: 0px;
+  text-align: left;
+}
+
+footer {
+  color: #B287A3;
+  text-align: center;
+  background-color: #23231A;
+  height: max-content;
+  margin: auto;
+  padding: 0;
+  width: 800px;
+  border-radius: 5px;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #B9C0BA;
+}
+
+hr {
+  border: 6px solid #23231A;
+  border-radius: 3px;
+}
