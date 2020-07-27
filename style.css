@@ -47,6 +47,10 @@
   width: 20%;
 }
 
+.lesstopm {
+  margin-top: 25px;
+}
+
 .social {
   background-color: #fff;
   font-size: 0;
@@ -91,7 +95,6 @@
   margin: auto;
   margin-left: 16.33%;
   margin-right: -17px;
-  padding-top: 1px;
   
   float: left;
   /* Style for the left list. */
