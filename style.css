@@ -49,6 +49,7 @@
 
 .lesstopm {
   margin-top: 25px;
+  /* Style specifically to better align the left list header with the right list header. */
 }
 
 .social {
@@ -116,13 +117,6 @@
   float: left;
   /* Style for the right list. */
 }
-
-/*
-ul li:first-of-type, ol li:first-of-type {
-  list-style: none;
-  margin-left: -1px;
-}
-*/
 
 body {
   background: url("images/mountain-road.jpg");  
