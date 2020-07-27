@@ -68,7 +68,9 @@
   margin-bottom: 21%;
   margin-top: 1%;
   padding: 10px;
-  /* Style for the list container, to which lists can be added as articles. */
+  /* Style for the list container, to which lists can be added as articles. 
+  This may be outside of the scope of the module, but I wanted to learn to
+  place containers side by side and took the time to do so. */
 }
 
 .leftli {
