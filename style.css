@@ -119,8 +119,12 @@
 }
 
 body {
-  background: url("images/mountain-road.jpg");  
+  background: url("images/mountain-road.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-color: antiquewhite;
   /* Sets the background image on the body of the page, for simplicity. */
 }
 
